@@ -5,7 +5,7 @@ Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
 
 /*
 
--- Data Validation
+-- Data Validation - Checking the completeness of the database upload in SQL Server Management Studio
 
 SELECT *
 FROM PortfolioProject..CovidDeaths
@@ -25,7 +25,7 @@ WHERE continent is not null
 ORDER BY 1,2
 
 -- Total Cases vs Total Deaths
--- Shows likelihood of dying if you contract covid in your country
+-- Shows likelihood of dying if you contract COVID-19 in Poland
 
 SELECT Location, date, total_cases, total_deaths, (total_deaths/total_cases) * 100 as DeathPercentage
 FROM PortfolioProject..CovidDeaths
@@ -34,7 +34,7 @@ AND continent is not null
 ORDER BY 1,2
 
 -- Total Cases vs Population
--- Shows what percentage of population infected with Covid
+-- Shows what percentage of population infected with COVID in Poland
 
 SELECT Location, date, population, total_cases, (total_cases/population) * 100 as PercentPopulationInfected
 FROM PortfolioProject..CovidDeaths
@@ -91,7 +91,6 @@ JOIN PortfolioProject..CovidVaccinations vac
 	and dea.date = vac.date
 WHERE dea.continent is not null 
 ORDER BY 2,3
-
 
 -- Using CTE to perform Calculation on Partition By in previous query
 
