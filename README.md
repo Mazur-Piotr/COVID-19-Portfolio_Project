@@ -51,3 +51,6 @@ A view is generated to store data for future visualization and reporting purpose
 ## Data Generation for Tableau
 The project concludes by generating data sets suitable for visualization in Tableau, providing opportunities for further exploration and reporting.
 
+## Usage
+This project provides a foundational understanding of the data cleaning and transformation process required for subsequent data analysis and visualization tasks related to Covid-19 data
+
