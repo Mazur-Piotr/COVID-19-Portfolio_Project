@@ -1,4 +1,4 @@
-# Covid 19 Data Exploration
+# Covid-19 Data Exploration
 ## Overview
 This project involves in-depth data exploration and analysis of COVID-19 data using SQL. Various SQL techniques and functions are applied to derive valuable insights and visualize key metrics related to the pandemic.
 
@@ -10,7 +10,8 @@ This project involves in-depth data exploration and analysis of COVID-19 data us
 - Aggregate Functions
 - Creating Views
 - Converting Data Types
-- Data Validation
+  
+## Data Validation
 To ensure data completeness, the project begins by checking the dataset for completeness in SQL Server Management Studio. This step helps identify any missing or erroneous data.
 
 ## Data Exploration
