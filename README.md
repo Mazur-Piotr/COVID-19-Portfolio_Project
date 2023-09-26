@@ -54,6 +54,9 @@ Temporary tables are created to perform calculations on the partitioned data, en
 11. Creating Views for Later Visualizations
 A view is generated to store data for future visualization and reporting purposes.
 
+![image](https://github.com/Mazur-Piotr/COVID-19-Portfolio_Project/assets/138219323/30711c00-6b0a-41c4-9d29-635f67fba935)
+
+
 ## Data Generation for Tableau
 The project concludes by generating data sets suitable for visualization in Tableau, providing opportunities for further exploration and reporting.
 
