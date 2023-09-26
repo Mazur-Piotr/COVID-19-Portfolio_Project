@@ -2,6 +2,12 @@
 ## Overview
 This project involves in-depth data exploration and analysis of COVID-19 data using SQL. Various SQL techniques and functions are applied to derive valuable insights and visualize key metrics related to the pandemic.
 
+## Dataset
+Dataset Source: OurWorldinData
+https://ourworldindata.org/covid-deaths
+
+Dataset consists of the global data on confirmed COVID-19 deaths and vaccinations. 
+
 ## Skills Utilized
 - Joins
 - Common Table Expressions (CTE)
