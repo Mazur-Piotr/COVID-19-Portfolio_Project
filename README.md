@@ -6,7 +6,7 @@ This project involves in-depth data exploration and analysis of COVID-19 data us
 Dataset Source: OurWorldinData
 https://ourworldindata.org/covid-deaths
 
-Dataset consists of the global data on confirmed COVID-19 deaths and vaccinations. 
+The dataset consists of the global data on confirmed COVID-19 deaths and vaccinations. 
 
 ## Skills Utilized
 - Joins
