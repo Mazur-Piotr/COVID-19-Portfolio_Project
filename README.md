@@ -17,10 +17,11 @@ The dataset consists of the global data on confirmed COVID-19 deaths and vaccina
 - Creating Views
 - Converting Data Types
   
-## Data Validation
+## Project Structure  
+### 1. Data Validation
 To ensure data completeness, the project begins by checking the dataset for completeness in SQL Server Management Studio. This step helps identify any missing or erroneous data.
 
-## Data Exploration
+### 2.Data Exploration
 1. Selecting Initial Data
 The project starts by selecting essential COVID-19 data, including location, date, total cases, new cases, total deaths, and population. This initial dataset forms the basis for subsequent analyses.
 
@@ -56,9 +57,12 @@ A view is generated to store data for future visualization and reporting purpose
 
 ![image](https://github.com/Mazur-Piotr/COVID-19-Portfolio_Project/assets/138219323/30711c00-6b0a-41c4-9d29-635f67fba935)
 
-
-## Data Generation for Tableau
+### 3. Loaded Data to Tableau 
 The project concludes by generating data sets suitable for visualization in Tableau, providing opportunities for further exploration and reporting.
+### 4. Data Visualization
+- Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
+
+![image](https://github.com/Mazur-Piotr/COVID-19-Portfolio_Project/assets/138219323/8425a594-e473-4c8f-a9bb-a2dbab0cbdd9)
 
 ## Usage
 This project provides a foundational understanding of the data cleaning and transformation process required for subsequent data analysis and visualization tasks related to Covid-19 data
